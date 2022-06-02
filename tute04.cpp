@@ -27,3 +27,10 @@ int main() {
   std::cout << std::endl;
   return 0;
 }
+long Factorial(int no){
+  int factorial=1;
+  for(int i=1;i<=no;i++){
+    factorial=factorial*1;
+  }
+  return factorial;
+}
